@@ -82,7 +82,7 @@ static int start_process(const char *path, char *const args[], char *const env[]
 		start_process("/bin/sh", sh_args, env);
 		return;
 	} else {
-		NSLog(@"process forked: %d", pid);
+		HBLogDebug(@"process forked: %d", pid);
 		_childPID = pid;
 		
 		// We're the parent process (still).

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 HASHBANG Productions. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "VT100Types.h"
+@import UIKit;
+@import iTerm2;
 
 @class HBNTServer, VT100ColorMap;
 

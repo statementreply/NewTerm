@@ -2,17 +2,15 @@
 //  main.m
 //  NewTerm
 //
-//  Created by Adam D on 20/07/2014.
-//  Copyright (c) 2014 HASHBANG Productions. All rights reserved.
+//  Created by Adam Demasi on 24/10/2015.
+//  Copyright © 2015 HASHBANG Productions. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-#import "HBNTAppDelegate.h"
-
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
 	@autoreleasepool {
-	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([HBNTAppDelegate class]));
+	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
 	}
 }

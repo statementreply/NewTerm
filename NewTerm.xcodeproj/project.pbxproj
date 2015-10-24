@@ -27,6 +27,119 @@
 		CF3704351A715AD70026B667 /* HBNTSubProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3704331A715AD70026B667 /* HBNTSubProcess.m */; };
 		CF558DD0197CFAD4005DE399 /* HBNTSegmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF558DCF197CFAD4005DE399 /* HBNTSegmentTableViewCell.m */; };
 		CF558DD4197CFFEC005DE399 /* HBNTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF558DD3197CFFEC005DE399 /* HBNTTextField.m */; };
+		CF7E734A1BDBB3F4007ED32A /* iTerm2.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73491BDBB3F4007ED32A /* iTerm2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7E73511BDBB3F4007ED32A /* iTerm2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7E73471BDBB3F4007ED32A /* iTerm2.framework */; settings = {ASSET_TAGS = (); }; };
+		CF7E73581BDBB3F4007ED32A /* iTerm2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73571BDBB3F4007ED32A /* iTerm2Tests.m */; };
+		CF7E735C1BDBB3F4007ED32A /* iTerm2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7E73471BDBB3F4007ED32A /* iTerm2.framework */; };
+		CF7E735D1BDBB3F4007ED32A /* iTerm2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF7E73471BDBB3F4007ED32A /* iTerm2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF7E73921BDBB416007ED32A /* VT100AnsiParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73641BDBB416007ED32A /* VT100AnsiParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73931BDBB416007ED32A /* VT100AnsiParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73651BDBB416007ED32A /* VT100AnsiParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73941BDBB416007ED32A /* VT100ControlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73661BDBB416007ED32A /* VT100ControlParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73951BDBB416007ED32A /* VT100ControlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73671BDBB416007ED32A /* VT100ControlParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73961BDBB416007ED32A /* VT100CSIParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73681BDBB416007ED32A /* VT100CSIParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73971BDBB416007ED32A /* VT100CSIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73691BDBB416007ED32A /* VT100CSIParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73981BDBB416007ED32A /* VT100DCSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E736A1BDBB416007ED32A /* VT100DCSParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73991BDBB416007ED32A /* VT100DCSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E736B1BDBB416007ED32A /* VT100DCSParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E739A1BDBB416007ED32A /* VT100Grid.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E736C1BDBB416007ED32A /* VT100Grid.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E739B1BDBB416007ED32A /* VT100Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E736D1BDBB416007ED32A /* VT100Grid.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E739C1BDBB416007ED32A /* VT100GridTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E736E1BDBB416007ED32A /* VT100GridTypes.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E739D1BDBB416007ED32A /* VT100GridTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E736F1BDBB416007ED32A /* VT100GridTypes.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E739E1BDBB416007ED32A /* VT100LineInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73701BDBB416007ED32A /* VT100LineInfo.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E739F1BDBB416007ED32A /* VT100LineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73711BDBB416007ED32A /* VT100LineInfo.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A01BDBB416007ED32A /* VT100OtherParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73721BDBB416007ED32A /* VT100OtherParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A11BDBB416007ED32A /* VT100OtherParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73731BDBB416007ED32A /* VT100OtherParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A21BDBB416007ED32A /* VT100Output.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73741BDBB416007ED32A /* VT100Output.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A31BDBB416007ED32A /* VT100Output.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73751BDBB416007ED32A /* VT100Output.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A41BDBB416007ED32A /* VT100Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73761BDBB416007ED32A /* VT100Parser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A51BDBB416007ED32A /* VT100Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73771BDBB416007ED32A /* VT100Parser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A61BDBB416007ED32A /* VT100RemoteHost.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73781BDBB416007ED32A /* VT100RemoteHost.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A71BDBB416007ED32A /* VT100RemoteHost.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73791BDBB416007ED32A /* VT100RemoteHost.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A81BDBB416007ED32A /* VT100Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E737A1BDBB416007ED32A /* VT100Screen.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73A91BDBB416007ED32A /* VT100Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E737B1BDBB416007ED32A /* VT100Screen.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AA1BDBB416007ED32A /* VT100ScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E737C1BDBB416007ED32A /* VT100ScreenDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AB1BDBB416007ED32A /* VT100ScreenMark.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E737D1BDBB416007ED32A /* VT100ScreenMark.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AC1BDBB416007ED32A /* VT100ScreenMark.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E737E1BDBB416007ED32A /* VT100ScreenMark.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AD1BDBB416007ED32A /* VT100State.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E737F1BDBB416007ED32A /* VT100State.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AE1BDBB416007ED32A /* VT100State.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73801BDBB416007ED32A /* VT100State.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73AF1BDBB416007ED32A /* VT100StateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73811BDBB416007ED32A /* VT100StateMachine.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B01BDBB416007ED32A /* VT100StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73821BDBB416007ED32A /* VT100StateMachine.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B11BDBB416007ED32A /* VT100StateTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73831BDBB416007ED32A /* VT100StateTransition.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B21BDBB416007ED32A /* VT100StateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73841BDBB416007ED32A /* VT100StateTransition.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B31BDBB416007ED32A /* VT100StringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73851BDBB416007ED32A /* VT100StringParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B41BDBB416007ED32A /* VT100StringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73861BDBB416007ED32A /* VT100StringParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B51BDBB416007ED32A /* VT100Terminal.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73871BDBB416007ED32A /* VT100Terminal.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B61BDBB416007ED32A /* VT100Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73881BDBB416007ED32A /* VT100Terminal.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B71BDBB416007ED32A /* VT100TerminalDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73891BDBB416007ED32A /* VT100TerminalDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B81BDBB416007ED32A /* VT100TmuxParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E738A1BDBB416007ED32A /* VT100TmuxParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73B91BDBB416007ED32A /* VT100TmuxParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E738B1BDBB416007ED32A /* VT100TmuxParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BA1BDBB416007ED32A /* VT100Token.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E738C1BDBB416007ED32A /* VT100Token.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BB1BDBB416007ED32A /* VT100Token.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E738D1BDBB416007ED32A /* VT100Token.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BC1BDBB416007ED32A /* VT100WorkingDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E738E1BDBB416007ED32A /* VT100WorkingDirectory.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BD1BDBB416007ED32A /* VT100WorkingDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E738F1BDBB416007ED32A /* VT100WorkingDirectory.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BE1BDBB416007ED32A /* VT100XtermParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73901BDBB416007ED32A /* VT100XtermParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73BF1BDBB416007ED32A /* VT100XtermParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73911BDBB416007ED32A /* VT100XtermParser.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CA1BDBB564007ED32A /* DebugLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73C11BDBB564007ED32A /* DebugLogging.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CB1BDBB564007ED32A /* DebugLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73C21BDBB564007ED32A /* DebugLogging.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CC1BDBB564007ED32A /* iTermObjectPool.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73C31BDBB564007ED32A /* iTermObjectPool.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CD1BDBB564007ED32A /* iTermObjectPool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73C41BDBB564007ED32A /* iTermObjectPool.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CE1BDBB564007ED32A /* iTermParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73C51BDBB564007ED32A /* iTermParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73CF1BDBB564007ED32A /* NSStringITerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73C61BDBB564007ED32A /* NSStringITerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73D01BDBB564007ED32A /* NSStringITerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73C71BDBB564007ED32A /* NSStringITerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73D11BDBB564007ED32A /* ScreenChar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73C81BDBB564007ED32A /* ScreenChar.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73D21BDBB564007ED32A /* ScreenChar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73C91BDBB564007ED32A /* ScreenChar.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F01BDBBC71007ED32A /* BackgroundThread.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73D31BDBBC71007ED32A /* BackgroundThread.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F11BDBBC71007ED32A /* BackgroundThread.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73D41BDBBC71007ED32A /* BackgroundThread.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F21BDBBC71007ED32A /* charmaps.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73D51BDBBC71007ED32A /* charmaps.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F31BDBBC71007ED32A /* CVector.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73D61BDBBC71007ED32A /* CVector.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F41BDBBC71007ED32A /* DVRIndexEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73D71BDBBC71007ED32A /* DVRIndexEntry.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F51BDBBC71007ED32A /* DVRIndexEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73D81BDBBC71007ED32A /* DVRIndexEntry.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F61BDBBC71007ED32A /* FindContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73D91BDBBC71007ED32A /* FindContext.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F71BDBBC71007ED32A /* FindContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73DA1BDBBC71007ED32A /* FindContext.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F81BDBBC71007ED32A /* iTermAdvancedSettingsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73DB1BDBBC71007ED32A /* iTermAdvancedSettingsModel.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73F91BDBBC71007ED32A /* iTermAdvancedSettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73DC1BDBBC71007ED32A /* iTermAdvancedSettingsModel.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FA1BDBBC71007ED32A /* iTermImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73DD1BDBBC71007ED32A /* iTermImageInfo.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FB1BDBBC71007ED32A /* iTermImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73DE1BDBBC71007ED32A /* iTermImageInfo.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FC1BDBBC71007ED32A /* iTermObjectPool.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73DF1BDBBC71007ED32A /* iTermObjectPool.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FD1BDBBC71007ED32A /* iTermObjectPool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73E01BDBBC71007ED32A /* iTermObjectPool.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FE1BDBBC71007ED32A /* iTermParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73E11BDBBC71007ED32A /* iTermParser.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E73FF1BDBBC71007ED32A /* LineBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73E21BDBBC71007ED32A /* LineBlock.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74001BDBBC71007ED32A /* LineBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73E31BDBBC71007ED32A /* LineBlock.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74011BDBBC71007ED32A /* LineBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73E41BDBBC71007ED32A /* LineBuffer.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74021BDBBC71007ED32A /* LineBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73E51BDBBC71007ED32A /* LineBuffer.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74031BDBBC71007ED32A /* LineBufferHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73E61BDBBC71007ED32A /* LineBufferHelpers.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74041BDBBC71007ED32A /* LineBufferHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73E71BDBBC71007ED32A /* LineBufferHelpers.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74051BDBBC71007ED32A /* LineBufferPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73E81BDBBC71007ED32A /* LineBufferPosition.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74061BDBBC71007ED32A /* LineBufferPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73E91BDBBC71007ED32A /* LineBufferPosition.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74071BDBBC71007ED32A /* NSCharacterSet+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73EA1BDBBC71007ED32A /* NSCharacterSet+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74081BDBBC71007ED32A /* NSCharacterSet+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73EB1BDBBC71007ED32A /* NSCharacterSet+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74091BDBBC71007ED32A /* NSData+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73EC1BDBBC71007ED32A /* NSData+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E740A1BDBBC71007ED32A /* NSData+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73ED1BDBBC71007ED32A /* NSData+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E740B1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E73EE1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E740C1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E73EF1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74171BDBBED9007ED32A /* NSDictionary+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74151BDBBED9007ED32A /* NSDictionary+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74181BDBBED9007ED32A /* NSDictionary+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74161BDBBED9007ED32A /* NSDictionary+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E741B1BDBBEE0007ED32A /* ITAddressBookMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74191BDBBEE0007ED32A /* ITAddressBookMgr.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E741C1BDBBEE0007ED32A /* ITAddressBookMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E741A1BDBBEE0007ED32A /* ITAddressBookMgr.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E741F1BDBBEFC007ED32A /* ProfileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E741D1BDBBEFC007ED32A /* ProfileModel.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74201BDBBEFC007ED32A /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E741E1BDBBEFC007ED32A /* ProfileModel.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74231BDBBF54007ED32A /* FutureMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74211BDBBF54007ED32A /* FutureMethods.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74241BDBBF54007ED32A /* FutureMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74221BDBBF54007ED32A /* FutureMethods.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74291BDBC01F007ED32A /* iTermPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74271BDBC01F007ED32A /* iTermPreferences.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E742A1BDBC01F007ED32A /* iTermPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74281BDBC01F007ED32A /* iTermPreferences.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E742D1BDBC059007ED32A /* PreferenceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E742B1BDBC059007ED32A /* PreferenceInfo.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E742E1BDBC059007ED32A /* PreferenceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E742C1BDBC059007ED32A /* PreferenceInfo.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74311BDBC09F007ED32A /* iTermProfilePreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E742F1BDBC09F007ED32A /* iTermProfilePreferences.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74321BDBC09F007ED32A /* iTermProfilePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74301BDBC09F007ED32A /* iTermProfilePreferences.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74351BDBC0C1007ED32A /* iTermKeyBindingMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74331BDBC0C1007ED32A /* iTermKeyBindingMgr.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74361BDBC0C1007ED32A /* iTermKeyBindingMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74341BDBC0C1007ED32A /* iTermKeyBindingMgr.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74391BDBC100007ED32A /* UIColor+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74371BDBC100007ED32A /* UIColor+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E743A1BDBC100007ED32A /* UIColor+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74381BDBC100007ED32A /* UIColor+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E743D1BDBC187007ED32A /* NSMutableDictionary+Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E743B1BDBC187007ED32A /* NSMutableDictionary+Profile.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E743E1BDBC187007ED32A /* NSMutableDictionary+Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E743C1BDBC187007ED32A /* NSMutableDictionary+Profile.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74411BDBC195007ED32A /* NSFileManager+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E743F1BDBC195007ED32A /* NSFileManager+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74421BDBC195007ED32A /* NSFileManager+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74401BDBC195007ED32A /* NSFileManager+iTerm.m */; settings = {ASSET_TAGS = (); }; };
+		CF7E74451BDBC1B7007ED32A /* UIFont+iTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7E74431BDBC1B7007ED32A /* UIFont+iTerm.h */; settings = {ASSET_TAGS = (); }; };
+		CF7E74461BDBC1B7007ED32A /* UIFont+iTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E74441BDBC1B7007ED32A /* UIFont+iTerm.m */; settings = {ASSET_TAGS = (); }; };
 		CFC25056197BF983007DD739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC25055197BF983007DD739 /* Foundation.framework */; };
 		CFC25058197BF983007DD739 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC25057197BF983007DD739 /* CoreGraphics.framework */; };
 		CFC2505A197BF983007DD739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC25059197BF983007DD739 /* UIKit.framework */; };
@@ -43,6 +156,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CF7E73521BDBB3F4007ED32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC2504A197BF982007DD739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7E73461BDBB3F4007ED32A;
+			remoteInfo = iTerm2;
+		};
+		CF7E73541BDBB3F4007ED32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC2504A197BF982007DD739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC25051197BF983007DD739;
+			remoteInfo = NewTerm;
+		};
+		CF7E735A1BDBB3F4007ED32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC2504A197BF982007DD739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7E73461BDBB3F4007ED32A;
+			remoteInfo = iTerm2;
+		};
 		CFC25072197BF983007DD739 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CFC2504A197BF982007DD739 /* Project object */;
@@ -51,6 +185,20 @@
 			remoteInfo = NewTerm;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF7E6E331BDBAE6E007ED32A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF7E735D1BDBB3F4007ED32A /* iTerm2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		57C8B0D23C794EF2ABFEC059 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +246,120 @@
 		CF558DCF197CFAD4005DE399 /* HBNTSegmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBNTSegmentTableViewCell.m; sourceTree = "<group>"; };
 		CF558DD2197CFFEC005DE399 /* HBNTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBNTTextField.h; sourceTree = "<group>"; };
 		CF558DD3197CFFEC005DE399 /* HBNTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBNTTextField.m; sourceTree = "<group>"; };
+		CF7E73471BDBB3F4007ED32A /* iTerm2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTerm2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7E73491BDBB3F4007ED32A /* iTerm2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTerm2.h; sourceTree = "<group>"; };
+		CF7E734B1BDBB3F4007ED32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7E73501BDBB3F4007ED32A /* iTerm2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTerm2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7E73571BDBB3F4007ED32A /* iTerm2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTerm2Tests.m; sourceTree = "<group>"; };
+		CF7E73591BDBB3F4007ED32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7E73641BDBB416007ED32A /* VT100AnsiParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100AnsiParser.h; sourceTree = "<group>"; };
+		CF7E73651BDBB416007ED32A /* VT100AnsiParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100AnsiParser.m; sourceTree = "<group>"; };
+		CF7E73661BDBB416007ED32A /* VT100ControlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100ControlParser.h; sourceTree = "<group>"; };
+		CF7E73671BDBB416007ED32A /* VT100ControlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100ControlParser.m; sourceTree = "<group>"; };
+		CF7E73681BDBB416007ED32A /* VT100CSIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100CSIParser.h; sourceTree = "<group>"; };
+		CF7E73691BDBB416007ED32A /* VT100CSIParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100CSIParser.m; sourceTree = "<group>"; };
+		CF7E736A1BDBB416007ED32A /* VT100DCSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100DCSParser.h; sourceTree = "<group>"; };
+		CF7E736B1BDBB416007ED32A /* VT100DCSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100DCSParser.m; sourceTree = "<group>"; };
+		CF7E736C1BDBB416007ED32A /* VT100Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Grid.h; sourceTree = "<group>"; };
+		CF7E736D1BDBB416007ED32A /* VT100Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Grid.m; sourceTree = "<group>"; };
+		CF7E736E1BDBB416007ED32A /* VT100GridTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100GridTypes.h; sourceTree = "<group>"; };
+		CF7E736F1BDBB416007ED32A /* VT100GridTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100GridTypes.m; sourceTree = "<group>"; };
+		CF7E73701BDBB416007ED32A /* VT100LineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100LineInfo.h; sourceTree = "<group>"; };
+		CF7E73711BDBB416007ED32A /* VT100LineInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100LineInfo.m; sourceTree = "<group>"; };
+		CF7E73721BDBB416007ED32A /* VT100OtherParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100OtherParser.h; sourceTree = "<group>"; };
+		CF7E73731BDBB416007ED32A /* VT100OtherParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100OtherParser.m; sourceTree = "<group>"; };
+		CF7E73741BDBB416007ED32A /* VT100Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Output.h; sourceTree = "<group>"; };
+		CF7E73751BDBB416007ED32A /* VT100Output.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Output.m; sourceTree = "<group>"; };
+		CF7E73761BDBB416007ED32A /* VT100Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Parser.h; sourceTree = "<group>"; };
+		CF7E73771BDBB416007ED32A /* VT100Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Parser.m; sourceTree = "<group>"; };
+		CF7E73781BDBB416007ED32A /* VT100RemoteHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100RemoteHost.h; sourceTree = "<group>"; };
+		CF7E73791BDBB416007ED32A /* VT100RemoteHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100RemoteHost.m; sourceTree = "<group>"; };
+		CF7E737A1BDBB416007ED32A /* VT100Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Screen.h; sourceTree = "<group>"; };
+		CF7E737B1BDBB416007ED32A /* VT100Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Screen.m; sourceTree = "<group>"; };
+		CF7E737C1BDBB416007ED32A /* VT100ScreenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100ScreenDelegate.h; sourceTree = "<group>"; };
+		CF7E737D1BDBB416007ED32A /* VT100ScreenMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100ScreenMark.h; sourceTree = "<group>"; };
+		CF7E737E1BDBB416007ED32A /* VT100ScreenMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100ScreenMark.m; sourceTree = "<group>"; };
+		CF7E737F1BDBB416007ED32A /* VT100State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100State.h; sourceTree = "<group>"; };
+		CF7E73801BDBB416007ED32A /* VT100State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100State.m; sourceTree = "<group>"; };
+		CF7E73811BDBB416007ED32A /* VT100StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100StateMachine.h; sourceTree = "<group>"; };
+		CF7E73821BDBB416007ED32A /* VT100StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100StateMachine.m; sourceTree = "<group>"; };
+		CF7E73831BDBB416007ED32A /* VT100StateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100StateTransition.h; sourceTree = "<group>"; };
+		CF7E73841BDBB416007ED32A /* VT100StateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100StateTransition.m; sourceTree = "<group>"; };
+		CF7E73851BDBB416007ED32A /* VT100StringParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100StringParser.h; sourceTree = "<group>"; };
+		CF7E73861BDBB416007ED32A /* VT100StringParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100StringParser.m; sourceTree = "<group>"; };
+		CF7E73871BDBB416007ED32A /* VT100Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Terminal.h; sourceTree = "<group>"; };
+		CF7E73881BDBB416007ED32A /* VT100Terminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Terminal.m; sourceTree = "<group>"; };
+		CF7E73891BDBB416007ED32A /* VT100TerminalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100TerminalDelegate.h; sourceTree = "<group>"; };
+		CF7E738A1BDBB416007ED32A /* VT100TmuxParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100TmuxParser.h; sourceTree = "<group>"; };
+		CF7E738B1BDBB416007ED32A /* VT100TmuxParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100TmuxParser.m; sourceTree = "<group>"; };
+		CF7E738C1BDBB416007ED32A /* VT100Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100Token.h; sourceTree = "<group>"; };
+		CF7E738D1BDBB416007ED32A /* VT100Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100Token.m; sourceTree = "<group>"; };
+		CF7E738E1BDBB416007ED32A /* VT100WorkingDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100WorkingDirectory.h; sourceTree = "<group>"; };
+		CF7E738F1BDBB416007ED32A /* VT100WorkingDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100WorkingDirectory.m; sourceTree = "<group>"; };
+		CF7E73901BDBB416007ED32A /* VT100XtermParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VT100XtermParser.h; sourceTree = "<group>"; };
+		CF7E73911BDBB416007ED32A /* VT100XtermParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VT100XtermParser.m; sourceTree = "<group>"; };
+		CF7E73C11BDBB564007ED32A /* DebugLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogging.h; sourceTree = "<group>"; };
+		CF7E73C21BDBB564007ED32A /* DebugLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogging.m; sourceTree = "<group>"; };
+		CF7E73C31BDBB564007ED32A /* iTermObjectPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermObjectPool.h; sourceTree = "<group>"; };
+		CF7E73C41BDBB564007ED32A /* iTermObjectPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermObjectPool.m; sourceTree = "<group>"; };
+		CF7E73C51BDBB564007ED32A /* iTermParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermParser.h; sourceTree = "<group>"; };
+		CF7E73C61BDBB564007ED32A /* NSStringITerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringITerm.h; sourceTree = "<group>"; };
+		CF7E73C71BDBB564007ED32A /* NSStringITerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringITerm.m; sourceTree = "<group>"; };
+		CF7E73C81BDBB564007ED32A /* ScreenChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenChar.h; sourceTree = "<group>"; };
+		CF7E73C91BDBB564007ED32A /* ScreenChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenChar.m; sourceTree = "<group>"; };
+		CF7E73D31BDBBC71007ED32A /* BackgroundThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundThread.h; sourceTree = "<group>"; };
+		CF7E73D41BDBBC71007ED32A /* BackgroundThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundThread.m; sourceTree = "<group>"; };
+		CF7E73D51BDBBC71007ED32A /* charmaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charmaps.h; sourceTree = "<group>"; };
+		CF7E73D61BDBBC71007ED32A /* CVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVector.h; sourceTree = "<group>"; };
+		CF7E73D71BDBBC71007ED32A /* DVRIndexEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRIndexEntry.h; sourceTree = "<group>"; };
+		CF7E73D81BDBBC71007ED32A /* DVRIndexEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVRIndexEntry.m; sourceTree = "<group>"; };
+		CF7E73D91BDBBC71007ED32A /* FindContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindContext.h; sourceTree = "<group>"; };
+		CF7E73DA1BDBBC71007ED32A /* FindContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindContext.m; sourceTree = "<group>"; };
+		CF7E73DB1BDBBC71007ED32A /* iTermAdvancedSettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermAdvancedSettingsModel.h; sourceTree = "<group>"; };
+		CF7E73DC1BDBBC71007ED32A /* iTermAdvancedSettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermAdvancedSettingsModel.m; sourceTree = "<group>"; };
+		CF7E73DD1BDBBC71007ED32A /* iTermImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermImageInfo.h; sourceTree = "<group>"; };
+		CF7E73DE1BDBBC71007ED32A /* iTermImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermImageInfo.m; sourceTree = "<group>"; };
+		CF7E73DF1BDBBC71007ED32A /* iTermObjectPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermObjectPool.h; sourceTree = "<group>"; };
+		CF7E73E01BDBBC71007ED32A /* iTermObjectPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermObjectPool.m; sourceTree = "<group>"; };
+		CF7E73E11BDBBC71007ED32A /* iTermParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermParser.h; sourceTree = "<group>"; };
+		CF7E73E21BDBBC71007ED32A /* LineBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineBlock.h; sourceTree = "<group>"; };
+		CF7E73E31BDBBC71007ED32A /* LineBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineBlock.m; sourceTree = "<group>"; };
+		CF7E73E41BDBBC71007ED32A /* LineBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineBuffer.h; sourceTree = "<group>"; };
+		CF7E73E51BDBBC71007ED32A /* LineBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineBuffer.m; sourceTree = "<group>"; };
+		CF7E73E61BDBBC71007ED32A /* LineBufferHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineBufferHelpers.h; sourceTree = "<group>"; };
+		CF7E73E71BDBBC71007ED32A /* LineBufferHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineBufferHelpers.m; sourceTree = "<group>"; };
+		CF7E73E81BDBBC71007ED32A /* LineBufferPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineBufferPosition.h; sourceTree = "<group>"; };
+		CF7E73E91BDBBC71007ED32A /* LineBufferPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineBufferPosition.m; sourceTree = "<group>"; };
+		CF7E73EA1BDBBC71007ED32A /* NSCharacterSet+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+iTerm.h"; sourceTree = "<group>"; };
+		CF7E73EB1BDBBC71007ED32A /* NSCharacterSet+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+iTerm.m"; sourceTree = "<group>"; };
+		CF7E73EC1BDBBC71007ED32A /* NSData+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+iTerm.h"; sourceTree = "<group>"; };
+		CF7E73ED1BDBBC71007ED32A /* NSData+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+iTerm.m"; sourceTree = "<group>"; };
+		CF7E73EE1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+iTerm.h"; sourceTree = "<group>"; };
+		CF7E73EF1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+iTerm.m"; sourceTree = "<group>"; };
+		CF7E74151BDBBED9007ED32A /* NSDictionary+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iTerm.h"; sourceTree = "<group>"; };
+		CF7E74161BDBBED9007ED32A /* NSDictionary+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+iTerm.m"; sourceTree = "<group>"; };
+		CF7E74191BDBBEE0007ED32A /* ITAddressBookMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITAddressBookMgr.h; sourceTree = "<group>"; };
+		CF7E741A1BDBBEE0007ED32A /* ITAddressBookMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITAddressBookMgr.m; sourceTree = "<group>"; };
+		CF7E741D1BDBBEFC007ED32A /* ProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
+		CF7E741E1BDBBEFC007ED32A /* ProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		CF7E74211BDBBF54007ED32A /* FutureMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureMethods.h; sourceTree = "<group>"; };
+		CF7E74221BDBBF54007ED32A /* FutureMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureMethods.m; sourceTree = "<group>"; };
+		CF7E74271BDBC01F007ED32A /* iTermPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermPreferences.h; sourceTree = "<group>"; };
+		CF7E74281BDBC01F007ED32A /* iTermPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermPreferences.m; sourceTree = "<group>"; };
+		CF7E742B1BDBC059007ED32A /* PreferenceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceInfo.h; sourceTree = "<group>"; };
+		CF7E742C1BDBC059007ED32A /* PreferenceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceInfo.m; sourceTree = "<group>"; };
+		CF7E742F1BDBC09F007ED32A /* iTermProfilePreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermProfilePreferences.h; sourceTree = "<group>"; };
+		CF7E74301BDBC09F007ED32A /* iTermProfilePreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermProfilePreferences.m; sourceTree = "<group>"; };
+		CF7E74331BDBC0C1007ED32A /* iTermKeyBindingMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermKeyBindingMgr.h; sourceTree = "<group>"; };
+		CF7E74341BDBC0C1007ED32A /* iTermKeyBindingMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermKeyBindingMgr.m; sourceTree = "<group>"; };
+		CF7E74371BDBC100007ED32A /* UIColor+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iTerm.h"; sourceTree = "<group>"; };
+		CF7E74381BDBC100007ED32A /* UIColor+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iTerm.m"; sourceTree = "<group>"; };
+		CF7E743B1BDBC187007ED32A /* NSMutableDictionary+Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Profile.h"; sourceTree = "<group>"; };
+		CF7E743C1BDBC187007ED32A /* NSMutableDictionary+Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Profile.m"; sourceTree = "<group>"; };
+		CF7E743F1BDBC195007ED32A /* NSFileManager+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+iTerm.h"; sourceTree = "<group>"; };
+		CF7E74401BDBC195007ED32A /* NSFileManager+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+iTerm.m"; sourceTree = "<group>"; };
+		CF7E74431BDBC1B7007ED32A /* UIFont+iTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+iTerm.h"; sourceTree = "<group>"; };
+		CF7E74441BDBC1B7007ED32A /* UIFont+iTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+iTerm.m"; sourceTree = "<group>"; };
 		CFC25052197BF983007DD739 /* NewTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC25055197BF983007DD739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFC25057197BF983007DD739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +380,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CF7E73431BDBB3F4007ED32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7E734D1BDBB3F4007ED32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E73511BDBB3F4007ED32A /* iTerm2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFC2504F197BF983007DD739 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +402,7 @@
 				CFC25058197BF983007DD739 /* CoreGraphics.framework in Frameworks */,
 				CFC2505A197BF983007DD739 /* UIKit.framework in Frameworks */,
 				CFC25056197BF983007DD739 /* Foundation.framework in Frameworks */,
+				CF7E735C1BDBB3F4007ED32A /* iTerm2.framework in Frameworks */,
 				DAE2F0C10C264EFAAFA830E1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,11 +610,163 @@
 			name = "Text Field";
 			sourceTree = "<group>";
 		};
+		CF7E73481BDBB3F4007ED32A /* iTerm2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E73491BDBB3F4007ED32A /* iTerm2.h */,
+				CF7E73C01BDBB41B007ED32A /* VT100 */,
+				CF7E74251BDBBF5A007ED32A /* iTerm2 */,
+				CF7E734B1BDBB3F4007ED32A /* Info.plist */,
+			);
+			path = iTerm2;
+			sourceTree = "<group>";
+		};
+		CF7E73561BDBB3F4007ED32A /* iTerm2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E73571BDBB3F4007ED32A /* iTerm2Tests.m */,
+				CF7E73591BDBB3F4007ED32A /* Info.plist */,
+			);
+			path = iTerm2Tests;
+			sourceTree = "<group>";
+		};
+		CF7E73C01BDBB41B007ED32A /* VT100 */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E73641BDBB416007ED32A /* VT100AnsiParser.h */,
+				CF7E73651BDBB416007ED32A /* VT100AnsiParser.m */,
+				CF7E73661BDBB416007ED32A /* VT100ControlParser.h */,
+				CF7E73671BDBB416007ED32A /* VT100ControlParser.m */,
+				CF7E73681BDBB416007ED32A /* VT100CSIParser.h */,
+				CF7E73691BDBB416007ED32A /* VT100CSIParser.m */,
+				CF7E736A1BDBB416007ED32A /* VT100DCSParser.h */,
+				CF7E736B1BDBB416007ED32A /* VT100DCSParser.m */,
+				CF7E736C1BDBB416007ED32A /* VT100Grid.h */,
+				CF7E736D1BDBB416007ED32A /* VT100Grid.m */,
+				CF7E736E1BDBB416007ED32A /* VT100GridTypes.h */,
+				CF7E736F1BDBB416007ED32A /* VT100GridTypes.m */,
+				CF7E73701BDBB416007ED32A /* VT100LineInfo.h */,
+				CF7E73711BDBB416007ED32A /* VT100LineInfo.m */,
+				CF7E73721BDBB416007ED32A /* VT100OtherParser.h */,
+				CF7E73731BDBB416007ED32A /* VT100OtherParser.m */,
+				CF7E73741BDBB416007ED32A /* VT100Output.h */,
+				CF7E73751BDBB416007ED32A /* VT100Output.m */,
+				CF7E73761BDBB416007ED32A /* VT100Parser.h */,
+				CF7E73771BDBB416007ED32A /* VT100Parser.m */,
+				CF7E73781BDBB416007ED32A /* VT100RemoteHost.h */,
+				CF7E73791BDBB416007ED32A /* VT100RemoteHost.m */,
+				CF7E737A1BDBB416007ED32A /* VT100Screen.h */,
+				CF7E737B1BDBB416007ED32A /* VT100Screen.m */,
+				CF7E737C1BDBB416007ED32A /* VT100ScreenDelegate.h */,
+				CF7E737D1BDBB416007ED32A /* VT100ScreenMark.h */,
+				CF7E737E1BDBB416007ED32A /* VT100ScreenMark.m */,
+				CF7E737F1BDBB416007ED32A /* VT100State.h */,
+				CF7E73801BDBB416007ED32A /* VT100State.m */,
+				CF7E73811BDBB416007ED32A /* VT100StateMachine.h */,
+				CF7E73821BDBB416007ED32A /* VT100StateMachine.m */,
+				CF7E73831BDBB416007ED32A /* VT100StateTransition.h */,
+				CF7E73841BDBB416007ED32A /* VT100StateTransition.m */,
+				CF7E73851BDBB416007ED32A /* VT100StringParser.h */,
+				CF7E73861BDBB416007ED32A /* VT100StringParser.m */,
+				CF7E73871BDBB416007ED32A /* VT100Terminal.h */,
+				CF7E73881BDBB416007ED32A /* VT100Terminal.m */,
+				CF7E73891BDBB416007ED32A /* VT100TerminalDelegate.h */,
+				CF7E738A1BDBB416007ED32A /* VT100TmuxParser.h */,
+				CF7E738B1BDBB416007ED32A /* VT100TmuxParser.m */,
+				CF7E738C1BDBB416007ED32A /* VT100Token.h */,
+				CF7E738D1BDBB416007ED32A /* VT100Token.m */,
+				CF7E738E1BDBB416007ED32A /* VT100WorkingDirectory.h */,
+				CF7E738F1BDBB416007ED32A /* VT100WorkingDirectory.m */,
+				CF7E73901BDBB416007ED32A /* VT100XtermParser.h */,
+				CF7E73911BDBB416007ED32A /* VT100XtermParser.m */,
+			);
+			name = VT100;
+			sourceTree = "<group>";
+		};
+		CF7E74251BDBBF5A007ED32A /* iTerm2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E74261BDBBF70007ED32A /* Categories */,
+				CF7E73C11BDBB564007ED32A /* DebugLogging.h */,
+				CF7E73C21BDBB564007ED32A /* DebugLogging.m */,
+				CF7E73C31BDBB564007ED32A /* iTermObjectPool.h */,
+				CF7E73C41BDBB564007ED32A /* iTermObjectPool.m */,
+				CF7E73C51BDBB564007ED32A /* iTermParser.h */,
+				CF7E73C81BDBB564007ED32A /* ScreenChar.h */,
+				CF7E73C91BDBB564007ED32A /* ScreenChar.m */,
+				CF7E73D31BDBBC71007ED32A /* BackgroundThread.h */,
+				CF7E73D41BDBBC71007ED32A /* BackgroundThread.m */,
+				CF7E73D51BDBBC71007ED32A /* charmaps.h */,
+				CF7E73D61BDBBC71007ED32A /* CVector.h */,
+				CF7E73D71BDBBC71007ED32A /* DVRIndexEntry.h */,
+				CF7E73D81BDBBC71007ED32A /* DVRIndexEntry.m */,
+				CF7E73D91BDBBC71007ED32A /* FindContext.h */,
+				CF7E73DA1BDBBC71007ED32A /* FindContext.m */,
+				CF7E73DB1BDBBC71007ED32A /* iTermAdvancedSettingsModel.h */,
+				CF7E73DC1BDBBC71007ED32A /* iTermAdvancedSettingsModel.m */,
+				CF7E73DD1BDBBC71007ED32A /* iTermImageInfo.h */,
+				CF7E73DE1BDBBC71007ED32A /* iTermImageInfo.m */,
+				CF7E73DF1BDBBC71007ED32A /* iTermObjectPool.h */,
+				CF7E73E01BDBBC71007ED32A /* iTermObjectPool.m */,
+				CF7E73E11BDBBC71007ED32A /* iTermParser.h */,
+				CF7E73E21BDBBC71007ED32A /* LineBlock.h */,
+				CF7E73E31BDBBC71007ED32A /* LineBlock.m */,
+				CF7E73E41BDBBC71007ED32A /* LineBuffer.h */,
+				CF7E73E51BDBBC71007ED32A /* LineBuffer.m */,
+				CF7E73E61BDBBC71007ED32A /* LineBufferHelpers.h */,
+				CF7E73E71BDBBC71007ED32A /* LineBufferHelpers.m */,
+				CF7E73E81BDBBC71007ED32A /* LineBufferPosition.h */,
+				CF7E73E91BDBBC71007ED32A /* LineBufferPosition.m */,
+				CF7E74191BDBBEE0007ED32A /* ITAddressBookMgr.h */,
+				CF7E741A1BDBBEE0007ED32A /* ITAddressBookMgr.m */,
+				CF7E741D1BDBBEFC007ED32A /* ProfileModel.h */,
+				CF7E741E1BDBBEFC007ED32A /* ProfileModel.m */,
+				CF7E74211BDBBF54007ED32A /* FutureMethods.h */,
+				CF7E74221BDBBF54007ED32A /* FutureMethods.m */,
+				CF7E74271BDBC01F007ED32A /* iTermPreferences.h */,
+				CF7E74281BDBC01F007ED32A /* iTermPreferences.m */,
+				CF7E742B1BDBC059007ED32A /* PreferenceInfo.h */,
+				CF7E742C1BDBC059007ED32A /* PreferenceInfo.m */,
+				CF7E742F1BDBC09F007ED32A /* iTermProfilePreferences.h */,
+				CF7E74301BDBC09F007ED32A /* iTermProfilePreferences.m */,
+				CF7E74331BDBC0C1007ED32A /* iTermKeyBindingMgr.h */,
+				CF7E74341BDBC0C1007ED32A /* iTermKeyBindingMgr.m */,
+			);
+			name = iTerm2;
+			sourceTree = "<group>";
+		};
+		CF7E74261BDBBF70007ED32A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E74371BDBC100007ED32A /* UIColor+iTerm.h */,
+				CF7E74381BDBC100007ED32A /* UIColor+iTerm.m */,
+				CF7E73C61BDBB564007ED32A /* NSStringITerm.h */,
+				CF7E73C71BDBB564007ED32A /* NSStringITerm.m */,
+				CF7E73EA1BDBBC71007ED32A /* NSCharacterSet+iTerm.h */,
+				CF7E73EB1BDBBC71007ED32A /* NSCharacterSet+iTerm.m */,
+				CF7E73EC1BDBBC71007ED32A /* NSData+iTerm.h */,
+				CF7E73ED1BDBBC71007ED32A /* NSData+iTerm.m */,
+				CF7E73EE1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.h */,
+				CF7E73EF1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.m */,
+				CF7E743B1BDBC187007ED32A /* NSMutableDictionary+Profile.h */,
+				CF7E743C1BDBC187007ED32A /* NSMutableDictionary+Profile.m */,
+				CF7E74151BDBBED9007ED32A /* NSDictionary+iTerm.h */,
+				CF7E74161BDBBED9007ED32A /* NSDictionary+iTerm.m */,
+				CF7E743F1BDBC195007ED32A /* NSFileManager+iTerm.h */,
+				CF7E74401BDBC195007ED32A /* NSFileManager+iTerm.m */,
+				CF7E74431BDBC1B7007ED32A /* UIFont+iTerm.h */,
+				CF7E74441BDBC1B7007ED32A /* UIFont+iTerm.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		CFC25049197BF982007DD739 = {
 			isa = PBXGroup;
 			children = (
 				CFC2505B197BF983007DD739 /* NewTerm */,
 				CFC25074197BF983007DD739 /* NewTermTests */,
+				CF7E73481BDBB3F4007ED32A /* iTerm2 */,
+				CF7E73561BDBB3F4007ED32A /* iTerm2Tests */,
 				CFC25054197BF983007DD739 /* Frameworks */,
 				CFC25053197BF983007DD739 /* Products */,
 				C53279E64C6D0C2D6042A1D4 /* Pods */,
@@ -348,6 +778,8 @@
 			children = (
 				CFC25052197BF983007DD739 /* NewTerm.app */,
 				CFC2506D197BF983007DD739 /* NewTermTests.xctest */,
+				CF7E73471BDBB3F4007ED32A /* iTerm2.framework */,
+				CF7E73501BDBB3F4007ED32A /* iTerm2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -444,7 +876,129 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CF7E73441BDBB3F4007ED32A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E73A61BDBB416007ED32A /* VT100RemoteHost.h in Headers */,
+				CF7E73FC1BDBBC71007ED32A /* iTermObjectPool.h in Headers */,
+				CF7E73B71BDBB416007ED32A /* VT100TerminalDelegate.h in Headers */,
+				CF7E73D11BDBB564007ED32A /* ScreenChar.h in Headers */,
+				CF7E73F41BDBBC71007ED32A /* DVRIndexEntry.h in Headers */,
+				CF7E73AF1BDBB416007ED32A /* VT100StateMachine.h in Headers */,
+				CF7E73A01BDBB416007ED32A /* VT100OtherParser.h in Headers */,
+				CF7E74171BDBBED9007ED32A /* NSDictionary+iTerm.h in Headers */,
+				CF7E73F61BDBBC71007ED32A /* FindContext.h in Headers */,
+				CF7E74311BDBC09F007ED32A /* iTermProfilePreferences.h in Headers */,
+				CF7E742D1BDBC059007ED32A /* PreferenceInfo.h in Headers */,
+				CF7E73941BDBB416007ED32A /* VT100ControlParser.h in Headers */,
+				CF7E73961BDBB416007ED32A /* VT100CSIParser.h in Headers */,
+				CF7E74091BDBBC71007ED32A /* NSData+iTerm.h in Headers */,
+				CF7E74231BDBBF54007ED32A /* FutureMethods.h in Headers */,
+				CF7E73CA1BDBB564007ED32A /* DebugLogging.h in Headers */,
+				CF7E73BC1BDBB416007ED32A /* VT100WorkingDirectory.h in Headers */,
+				CF7E73BE1BDBB416007ED32A /* VT100XtermParser.h in Headers */,
+				CF7E73CE1BDBB564007ED32A /* iTermParser.h in Headers */,
+				CF7E73B11BDBB416007ED32A /* VT100StateTransition.h in Headers */,
+				CF7E73921BDBB416007ED32A /* VT100AnsiParser.h in Headers */,
+				CF7E734A1BDBB3F4007ED32A /* iTerm2.h in Headers */,
+				CF7E73FA1BDBBC71007ED32A /* iTermImageInfo.h in Headers */,
+				CF7E74351BDBC0C1007ED32A /* iTermKeyBindingMgr.h in Headers */,
+				CF7E743D1BDBC187007ED32A /* NSMutableDictionary+Profile.h in Headers */,
+				CF7E739E1BDBB416007ED32A /* VT100LineInfo.h in Headers */,
+				CF7E73F21BDBBC71007ED32A /* charmaps.h in Headers */,
+				CF7E73FF1BDBBC71007ED32A /* LineBlock.h in Headers */,
+				CF7E73CC1BDBB564007ED32A /* iTermObjectPool.h in Headers */,
+				CF7E74391BDBC100007ED32A /* UIColor+iTerm.h in Headers */,
+				CF7E73AB1BDBB416007ED32A /* VT100ScreenMark.h in Headers */,
+				CF7E73A41BDBB416007ED32A /* VT100Parser.h in Headers */,
+				CF7E73B31BDBB416007ED32A /* VT100StringParser.h in Headers */,
+				CF7E73B51BDBB416007ED32A /* VT100Terminal.h in Headers */,
+				CF7E741B1BDBBEE0007ED32A /* ITAddressBookMgr.h in Headers */,
+				CF7E74071BDBBC71007ED32A /* NSCharacterSet+iTerm.h in Headers */,
+				CF7E74451BDBC1B7007ED32A /* UIFont+iTerm.h in Headers */,
+				CF7E73CF1BDBB564007ED32A /* NSStringITerm.h in Headers */,
+				CF7E739C1BDBB416007ED32A /* VT100GridTypes.h in Headers */,
+				CF7E73F01BDBBC71007ED32A /* BackgroundThread.h in Headers */,
+				CF7E73A81BDBB416007ED32A /* VT100Screen.h in Headers */,
+				CF7E73BA1BDBB416007ED32A /* VT100Token.h in Headers */,
+				CF7E739A1BDBB416007ED32A /* VT100Grid.h in Headers */,
+				CF7E73AA1BDBB416007ED32A /* VT100ScreenDelegate.h in Headers */,
+				CF7E73FE1BDBBC71007ED32A /* iTermParser.h in Headers */,
+				CF7E741F1BDBBEFC007ED32A /* ProfileModel.h in Headers */,
+				CF7E74011BDBBC71007ED32A /* LineBuffer.h in Headers */,
+				CF7E73981BDBB416007ED32A /* VT100DCSParser.h in Headers */,
+				CF7E74051BDBBC71007ED32A /* LineBufferPosition.h in Headers */,
+				CF7E74031BDBBC71007ED32A /* LineBufferHelpers.h in Headers */,
+				CF7E73F81BDBBC71007ED32A /* iTermAdvancedSettingsModel.h in Headers */,
+				CF7E740B1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.h in Headers */,
+				CF7E74291BDBC01F007ED32A /* iTermPreferences.h in Headers */,
+				CF7E73F31BDBBC71007ED32A /* CVector.h in Headers */,
+				CF7E73B81BDBB416007ED32A /* VT100TmuxParser.h in Headers */,
+				CF7E73AD1BDBB416007ED32A /* VT100State.h in Headers */,
+				CF7E73A21BDBB416007ED32A /* VT100Output.h in Headers */,
+				CF7E74411BDBC195007ED32A /* NSFileManager+iTerm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		CF7E6E101BDBA8EF007ED32A /* NewTerm Theos */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = CF7E6E131BDBA8EF007ED32A /* Build configuration list for PBXLegacyTarget "NewTerm Theos" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "NewTerm Theos";
+			passBuildSettingsInEnvironment = 1;
+			productName = "NewTerm Theos";
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
+		CF7E73461BDBB3F4007ED32A /* iTerm2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7E735E1BDBB3F4007ED32A /* Build configuration list for PBXNativeTarget "iTerm2" */;
+			buildPhases = (
+				CF7E73421BDBB3F4007ED32A /* Sources */,
+				CF7E73431BDBB3F4007ED32A /* Frameworks */,
+				CF7E73441BDBB3F4007ED32A /* Headers */,
+				CF7E73451BDBB3F4007ED32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTerm2;
+			productName = iTerm2;
+			productReference = CF7E73471BDBB3F4007ED32A /* iTerm2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF7E734F1BDBB3F4007ED32A /* iTerm2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7E73611BDBB3F4007ED32A /* Build configuration list for PBXNativeTarget "iTerm2Tests" */;
+			buildPhases = (
+				CF7E734C1BDBB3F4007ED32A /* Sources */,
+				CF7E734D1BDBB3F4007ED32A /* Frameworks */,
+				CF7E734E1BDBB3F4007ED32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7E73531BDBB3F4007ED32A /* PBXTargetDependency */,
+				CF7E73551BDBB3F4007ED32A /* PBXTargetDependency */,
+			);
+			name = iTerm2Tests;
+			productName = iTerm2Tests;
+			productReference = CF7E73501BDBB3F4007ED32A /* iTerm2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CFC25051197BF983007DD739 /* NewTerm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFC2507E197BF983007DD739 /* Build configuration list for PBXNativeTarget "NewTerm" */;
@@ -454,10 +1008,12 @@
 				CFC2504F197BF983007DD739 /* Frameworks */,
 				CFC25050197BF983007DD739 /* Resources */,
 				2A0535BDD96549A1B1C5A0BE /* Copy Pods Resources */,
+				CF7E6E331BDBAE6E007ED32A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF7E735B1BDBB3F4007ED32A /* PBXTargetDependency */,
 			);
 			name = NewTerm;
 			productName = NewTerm;
@@ -492,6 +1048,16 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "HASHBANG Productions";
 				TargetAttributes = {
+					CF7E6E101BDBA8EF007ED32A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CF7E73461BDBB3F4007ED32A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CF7E734F1BDBB3F4007ED32A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CFC25051197BF983007DD739;
+					};
 					CFC2506C197BF983007DD739 = {
 						TestTargetID = CFC25051197BF983007DD739;
 					};
@@ -509,13 +1075,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				CF7E6E101BDBA8EF007ED32A /* NewTerm Theos */,
 				CFC25051197BF983007DD739 /* NewTerm */,
 				CFC2506C197BF983007DD739 /* NewTermTests */,
+				CF7E73461BDBB3F4007ED32A /* iTerm2 */,
+				CF7E734F1BDBB3F4007ED32A /* iTerm2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF7E73451BDBB3F4007ED32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7E734E1BDBB3F4007ED32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFC25050197BF983007DD739 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -568,6 +1151,72 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF7E73421BDBB3F4007ED32A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E73A51BDBB416007ED32A /* VT100Parser.m in Sources */,
+				CF7E739B1BDBB416007ED32A /* VT100Grid.m in Sources */,
+				CF7E73B91BDBB416007ED32A /* VT100TmuxParser.m in Sources */,
+				CF7E73BD1BDBB416007ED32A /* VT100WorkingDirectory.m in Sources */,
+				CF7E73F51BDBBC71007ED32A /* DVRIndexEntry.m in Sources */,
+				CF7E73971BDBB416007ED32A /* VT100CSIParser.m in Sources */,
+				CF7E739F1BDBB416007ED32A /* VT100LineInfo.m in Sources */,
+				CF7E743E1BDBC187007ED32A /* NSMutableDictionary+Profile.m in Sources */,
+				CF7E74201BDBBEFC007ED32A /* ProfileModel.m in Sources */,
+				CF7E73991BDBB416007ED32A /* VT100DCSParser.m in Sources */,
+				CF7E73BF1BDBB416007ED32A /* VT100XtermParser.m in Sources */,
+				CF7E74041BDBBC71007ED32A /* LineBufferHelpers.m in Sources */,
+				CF7E739D1BDBB416007ED32A /* VT100GridTypes.m in Sources */,
+				CF7E73BB1BDBB416007ED32A /* VT100Token.m in Sources */,
+				CF7E74461BDBC1B7007ED32A /* UIFont+iTerm.m in Sources */,
+				CF7E73951BDBB416007ED32A /* VT100ControlParser.m in Sources */,
+				CF7E73B61BDBB416007ED32A /* VT100Terminal.m in Sources */,
+				CF7E73AC1BDBB416007ED32A /* VT100ScreenMark.m in Sources */,
+				CF7E73F91BDBBC71007ED32A /* iTermAdvancedSettingsModel.m in Sources */,
+				CF7E74021BDBBC71007ED32A /* LineBuffer.m in Sources */,
+				CF7E740C1BDBBC71007ED32A /* NSMutableAttributedString+iTerm.m in Sources */,
+				CF7E74181BDBBED9007ED32A /* NSDictionary+iTerm.m in Sources */,
+				CF7E742A1BDBC01F007ED32A /* iTermPreferences.m in Sources */,
+				CF7E73CB1BDBB564007ED32A /* DebugLogging.m in Sources */,
+				CF7E743A1BDBC100007ED32A /* UIColor+iTerm.m in Sources */,
+				CF7E74061BDBBC71007ED32A /* LineBufferPosition.m in Sources */,
+				CF7E74001BDBBC71007ED32A /* LineBlock.m in Sources */,
+				CF7E73B21BDBB416007ED32A /* VT100StateTransition.m in Sources */,
+				CF7E73D21BDBB564007ED32A /* ScreenChar.m in Sources */,
+				CF7E73A71BDBB416007ED32A /* VT100RemoteHost.m in Sources */,
+				CF7E73931BDBB416007ED32A /* VT100AnsiParser.m in Sources */,
+				CF7E742E1BDBC059007ED32A /* PreferenceInfo.m in Sources */,
+				CF7E73A31BDBB416007ED32A /* VT100Output.m in Sources */,
+				CF7E74361BDBC0C1007ED32A /* iTermKeyBindingMgr.m in Sources */,
+				CF7E73D01BDBB564007ED32A /* NSStringITerm.m in Sources */,
+				CF7E73AE1BDBB416007ED32A /* VT100State.m in Sources */,
+				CF7E74321BDBC09F007ED32A /* iTermProfilePreferences.m in Sources */,
+				CF7E73B01BDBB416007ED32A /* VT100StateMachine.m in Sources */,
+				CF7E740A1BDBBC71007ED32A /* NSData+iTerm.m in Sources */,
+				CF7E74241BDBBF54007ED32A /* FutureMethods.m in Sources */,
+				CF7E74081BDBBC71007ED32A /* NSCharacterSet+iTerm.m in Sources */,
+				CF7E73F11BDBBC71007ED32A /* BackgroundThread.m in Sources */,
+				CF7E741C1BDBBEE0007ED32A /* ITAddressBookMgr.m in Sources */,
+				CF7E73A11BDBB416007ED32A /* VT100OtherParser.m in Sources */,
+				CF7E73A91BDBB416007ED32A /* VT100Screen.m in Sources */,
+				CF7E73FB1BDBBC71007ED32A /* iTermImageInfo.m in Sources */,
+				CF7E73CD1BDBB564007ED32A /* iTermObjectPool.m in Sources */,
+				CF7E73F71BDBBC71007ED32A /* FindContext.m in Sources */,
+				CF7E73FD1BDBBC71007ED32A /* iTermObjectPool.m in Sources */,
+				CF7E74421BDBC195007ED32A /* NSFileManager+iTerm.m in Sources */,
+				CF7E73B41BDBB416007ED32A /* VT100StringParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7E734C1BDBB3F4007ED32A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E73581BDBB3F4007ED32A /* iTerm2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFC2504E197BF983007DD739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,6 +1258,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CF7E73531BDBB3F4007ED32A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7E73461BDBB3F4007ED32A /* iTerm2 */;
+			targetProxy = CF7E73521BDBB3F4007ED32A /* PBXContainerItemProxy */;
+		};
+		CF7E73551BDBB3F4007ED32A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC25051197BF983007DD739 /* NewTerm */;
+			targetProxy = CF7E73541BDBB3F4007ED32A /* PBXContainerItemProxy */;
+		};
+		CF7E735B1BDBB3F4007ED32A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7E73461BDBB3F4007ED32A /* iTerm2 */;
+			targetProxy = CF7E735A1BDBB3F4007ED32A /* PBXContainerItemProxy */;
+		};
 		CFC25073197BF983007DD739 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CFC25051197BF983007DD739 /* NewTerm */;
@@ -636,6 +1300,133 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CF7E6E111BDBA8EF007ED32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = NewTerm;
+				THEOS = /opt/theos;
+			};
+			name = Debug;
+		};
+		CF7E6E121BDBA8EF007ED32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = NewTerm;
+				THEOS = /opt/theos;
+			};
+			name = Release;
+		};
+		CF7E735F1BDBB3F4007ED32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = iTerm2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.hbang.iTerm2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF7E73601BDBB3F4007ED32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = iTerm2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.hbang.iTerm2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF7E73621BDBB3F4007ED32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = iTerm2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.hbang.iTerm2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
+			};
+			name = Debug;
+		};
+		CF7E73631BDBB3F4007ED32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = iTerm2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.hbang.iTerm2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
+			};
+			name = Release;
+		};
 		CFC2507C197BF983007DD739 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -652,7 +1443,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -691,7 +1481,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -718,6 +1507,7 @@
 				GCC_PREFIX_HEADER = "NewTerm/NewTerm-Prefix.pch";
 				INFOPLIST_FILE = "NewTerm/NewTerm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -733,6 +1523,7 @@
 				GCC_PREFIX_HEADER = "NewTerm/NewTerm-Prefix.pch";
 				INFOPLIST_FILE = "NewTerm/NewTerm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -741,7 +1532,6 @@
 		CFC25082197BF983007DD739 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -755,7 +1545,7 @@
 				);
 				INFOPLIST_FILE = "NewTermTests/NewTermTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -763,7 +1553,6 @@
 		CFC25083197BF983007DD739 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -773,7 +1562,7 @@
 				GCC_PREFIX_HEADER = "NewTerm/NewTerm-Prefix.pch";
 				INFOPLIST_FILE = "NewTermTests/NewTermTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTerm.app/NewTerm";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -781,6 +1570,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF7E6E131BDBA8EF007ED32A /* Build configuration list for PBXLegacyTarget "NewTerm Theos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7E6E111BDBA8EF007ED32A /* Debug */,
+				CF7E6E121BDBA8EF007ED32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7E735E1BDBB3F4007ED32A /* Build configuration list for PBXNativeTarget "iTerm2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7E735F1BDBB3F4007ED32A /* Debug */,
+				CF7E73601BDBB3F4007ED32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7E73611BDBB3F4007ED32A /* Build configuration list for PBXNativeTarget "iTerm2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7E73621BDBB3F4007ED32A /* Debug */,
+				CF7E73631BDBB3F4007ED32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CFC2504D197BF982007DD739 /* Build configuration list for PBXProject "NewTerm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
