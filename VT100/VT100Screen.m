@@ -893,6 +893,7 @@ static __inline__ screen_char_t *incrementLinePointer(
 				buffer = (screen_char_t *) malloc( 2 * len *sizeof(screen_char_t) );
 				if (!buffer) {
 						HBLogDebug(@"%s: Out of memory", __PRETTY_FUNCTION__);
+						free(sc);
 						return;
 				}
 				padString(string, buffer, [TERMINAL foregroundColorCode],
