@@ -4,7 +4,7 @@ export ADDITIONAL_LDFLAGS = -rpath @executable_path/Frameworks
 
 include $(THEOS)/makefiles/common.mk
 
-SUBPROJECTS = NewTerm prefs
+SUBPROJECTS = VT100 NewTerm prefs
 
 include $(THEOS_MAKE_PATH)/aggregate.mk
 

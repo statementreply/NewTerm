@@ -1,4 +1,4 @@
-// VT100.m
+/*// VT100.m
 // MobileTerminal
 
 #import "VT100.h"
@@ -12,11 +12,18 @@
 static const int kDefaultWidth = 80;
 static const int kDefaultHeight = 25;
 
-@implementation VT100
+@interface VT100 () <ScreenBuffer, ScreenBufferRefreshDelegate>
+@end
+
+@implementation VT100 {
+	VT100Screen *screen;
+	VT100Terminal *terminal;
+	id <ScreenBufferRefreshDelegate> refreshDelegate;
+}
 
 @synthesize refreshDelegate;
 
-- (id) init {
+- (instancetype) init {
 	self = [super init];
 	if (self != nil) {
 		terminal = [[VT100Terminal alloc] init];
@@ -31,7 +38,7 @@ static const int kDefaultHeight = 25;
 	return self;
 }
 
-// This object itself is the refresh delegate for the screen.	 When we're
+// This object itself is the refresh delegate for the screen.  When we're
 // invoked, invoke our refresh delegate and then reset the dirty bits on the
 // screen since we should have now refreshed the screen.
 - (void)refresh {
@@ -43,9 +50,12 @@ static const int kDefaultHeight = 25;
 	// Push the input stream into the terminal, then parse the stream back out as
 	// a series of tokens and feed them back to the screen
 	[terminal putStreamData:data];
-	VT100TCC token;
-	while((token = [terminal getNextToken]),
-				token.type != VT100_WAIT && token.type != VT100CC_NULL) {
+	VT100Token token;
+	while((token = [terminal getNextToken])) {
+		if (token.type == VT100_WAIT || token.type == VT100CC_NULL) {
+			break;
+		}
+
 		// process token
 		if (token.type != VT100_SKIP) {
 			if (token.type == VT100_NOTSUPPORT) {
@@ -97,3 +107,4 @@ static const int kDefaultHeight = 25;
 }
 
 @end
+*/
