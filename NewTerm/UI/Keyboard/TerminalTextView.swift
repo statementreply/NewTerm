@@ -22,7 +22,7 @@ class TerminalTextView: UITextView {
 		self.textContainer.lineFragmentPadding = 0
 		
 		linkTextAttributes = [
-			NSAttributedStringKey.underlineStyle.rawValue: NSUnderlineStyle.styleSingle
+			NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single
 		]
 	}
 	

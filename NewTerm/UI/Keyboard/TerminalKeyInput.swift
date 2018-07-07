@@ -215,7 +215,7 @@ class TerminalKeyInput: TextInputBase {
 		switch action {
 		case #selector(self.paste(_:)):
 			// only paste if the pasteboard contains a plaintext type
-			return UIPasteboard.general.contains(pasteboardTypes: UIPasteboardTypeListString as! [String])
+			return UIPasteboard.general.contains(pasteboardTypes: UIPasteboard.typeListString as! [String])
 		
 		case #selector(self.cut(_:)):
 			// ensure cut is never allowed
@@ -235,7 +235,7 @@ class TerminalKeyInput: TextInputBase {
 		let pasteboard = UIPasteboard.general
 		
 		// we already checked this above in canPerformAction(_:withSender:), but double check again
-		if !pasteboard.contains(pasteboardTypes: UIPasteboardTypeListString as! [String]) {
+		if !pasteboard.contains(pasteboardTypes: UIPasteboard.typeListString as! [String]) {
 			return
 		}
 		

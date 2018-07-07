@@ -93,7 +93,7 @@ class TerminalSessionViewController: UIViewController {
 		}
 	}
 	
-	override func removeFromParentViewController() {
+	override func removeFromParent() {
 		if hasStarted {
 			do {
 				try terminalController.stopSubProcess()
@@ -102,7 +102,7 @@ class TerminalSessionViewController: UIViewController {
 			}
 		}
 		
-		super.removeFromParentViewController()
+		super.removeFromParent()
 	}
 	
 	// MARK: - Screen
@@ -162,13 +162,13 @@ class TerminalSessionViewController: UIViewController {
 	}
 	
 	func registerForKeyboardNotifications() {
-		NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardVisibilityChanged(_:)), name: .UIKeyboardWillShow, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardVisibilityChanged(_:)), name: .UIKeyboardWillHide, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardVisibilityChanged(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardVisibilityChanged(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
 	}
 	
 	func unregisterForKeyboardNotifications() {
-		NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
-		NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillHide, object: nil)
+		NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+		NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
 	}
 	
 	@objc func keyboardVisibilityChanged(_ notification: Notification) {
@@ -179,14 +179,14 @@ class TerminalSessionViewController: UIViewController {
 			textView.showsVerticalScrollIndicator = true
 		}
 		
-		// YES when showing, NO when hiding
-		let direction = notification.name == .UIKeyboardWillShow
+		// true when showing, false when hiding
+		let direction = notification.name == UIResponder.keyboardWillShowNotification
 		
-		let animationDuration = notification.userInfo![UIKeyboardAnimationDurationUserInfoKey] as! TimeInterval
+		let animationDuration = notification.userInfo![UIResponder.keyboardAnimationDurationUserInfoKey] as! TimeInterval
 	
 		// determine the final keyboard height. we still get a height if hiding, so force it to 0 if this
 		// isn’t a show notification
-		let keyboardFrame = notification.userInfo![UIKeyboardFrameEndUserInfoKey] as! CGRect
+		let keyboardFrame = notification.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! CGRect
 		keyboardHeight = direction ? keyboardFrame.size.height : 0
 	
 		// we call updateScreenSize in an animation block to force it to be animated with the exact

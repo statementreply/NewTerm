@@ -78,10 +78,10 @@ class RootViewController: UIViewController {
 	@objc func addTerminal() {
 		let terminalViewController = TerminalSessionViewController()
 		
-		addChildViewController(terminalViewController)
-		terminalViewController.willMove(toParentViewController: self)
+		addChild(terminalViewController)
+		terminalViewController.willMove(toParent: self)
 		view.insertSubview(terminalViewController.view, belowSubview: tabToolbar)
-		terminalViewController.didMove(toParentViewController: self)
+		terminalViewController.didMove(toParent: self)
 		
 		terminals.append(terminalViewController)
 		
@@ -97,7 +97,7 @@ class RootViewController: UIViewController {
 			return
 		}
 		
-		terminalViewController.removeFromParentViewController()
+		terminalViewController.removeFromParent()
 		terminalViewController.view.removeFromSuperview()
 		
 		terminals.remove(at: index)

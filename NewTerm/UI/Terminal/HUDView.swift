@@ -23,7 +23,8 @@ class HUDView: UIView {
 	}()
 	
 	@objc init(image: UIImage) {
-		super.init(frame: CGRect(origin: .zero, size: intrinsicContentSize))
+		super.init(frame: .zero)
+		frame = CGRect(origin: .zero, size: intrinsicContentSize)
 		
 		alpha = 0
 		clipsToBounds = true
