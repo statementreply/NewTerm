@@ -196,5 +196,39 @@
 		<key>Text</key>
 		<string>#ffffff</string>
 	</dict>
+	<key>stat</key>
+	<dict>
+		<key>Background</key>
+		<string>#000000</string>
+		<key>BoldText</key>
+		<string>#ffffff</string>
+		<key>ColorTable</key>
+		<array>
+			<string>#000000</string>
+			<string>#c0243c</string>
+			<string>#00c054</string>
+			<string>#c0a800</string>
+			<string>#0078c0</string>
+			<string>#a43cc0</string>
+			<string>#00c0c0</string>
+			<string>#c0c0c0</string>
+			<string>#606060</string>
+			<string>#ff3050</string>
+			<string>#00ff70</string>
+			<string>#ffe000</string>
+			<string>#00a0ff</string>
+			<string>#d050ff</string>
+			<string>#00ffff</string>
+			<string>#ffffff</string>
+		</array>
+		<key>Cursor</key>
+		<string>#ff9900</string>
+		<key>CursorText</key>
+		<string>#000000</string>
+		<key>IsDark</key>
+		<true/>
+		<key>Text</key>
+		<string>#c0c0c0</string>
+	</dict>
 </dict>
 </plist>
