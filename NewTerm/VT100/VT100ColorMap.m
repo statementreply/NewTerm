@@ -94,11 +94,11 @@
 			case CURSOR_BG:
 				return _backgroundCursor;
 			case BG_COLOR_CODE:
-				return [UIColor clearColor];
+				return _background;
 			default:
 				if (index & BOLD_MASK) {
 					if (index - BOLD_MASK == BG_COLOR_CODE) {
-						return [UIColor clearColor];
+						return _background;
 					} else {
 						return _foregroundBold;
 					}
