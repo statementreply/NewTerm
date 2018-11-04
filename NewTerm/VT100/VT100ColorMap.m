@@ -63,8 +63,13 @@
 		}
 
 		if (dictionary[@"Cursor"]) {
-			_foregroundCursor = [UIColor hb_colorWithPropertyListValue:dictionary[@"Cursor"]];
 			_backgroundCursor = [UIColor hb_colorWithPropertyListValue:dictionary[@"Cursor"]];
+		}
+
+		if (dictionary[@"CursorText"]) {
+			_foregroundCursor = [UIColor hb_colorWithPropertyListValue:dictionary[@"CursorText"]];
+		} else {
+			_foregroundCursor = [UIColor hb_colorWithPropertyListValue:dictionary[@"Text"]];
 		}
 
 		if (dictionary[@"IsDark"]) {
